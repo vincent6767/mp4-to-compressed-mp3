@@ -1,0 +1,16 @@
+# Dependencies - reinstall with: pip install --target vendor -r requirements.txt
+vendor/
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Media - test fixtures and conversion output
+*.mp3
+*.mp4
+*.m4a
+*.mov
+*.part
