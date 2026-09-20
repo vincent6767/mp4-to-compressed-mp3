@@ -105,3 +105,11 @@ lossy-to-lossy damage.
 
 49 tests covering the bitrate math, shape thresholds, the MPEG rate constraint, passthrough,
 argument parsing and output naming. They're pure — no ffmpeg or media files needed.
+
+## License
+
+[Apache License 2.0](LICENSE).
+
+The bundled ffmpeg is a separate work under its own license, obtained at install time via
+[imageio-ffmpeg](https://github.com/imageio/imageio-ffmpeg) and not distributed with this
+repository.
